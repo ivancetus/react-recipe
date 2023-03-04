@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import leftImage from "../images/leftImage.jpg"
-import rightImage from "../images/rightImage.jpg"
+import leftImage from "../images/leftImage.jpeg"
+import rightImage from "../images/rightImage.jpeg"
 
 export default () => {
   return (
