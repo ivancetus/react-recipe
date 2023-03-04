@@ -20,7 +20,7 @@ const UpdateRecipe = () => {
         }
         throw new Error("Network response was not ok.");
       })
-      .then((res) => setRecipe(res))
+      .then((res) => setRecipe({ ...res, instruction: stripHtmlEntities(res.instruction) }))
   }, []);
 
   const handleChange = (event) => {
