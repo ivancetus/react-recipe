@@ -1,14 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import leftImage from "../images/leftImage.jpeg"
-import rightImage from "../images/rightImage.jpeg"
 
 export default () => {
   return (
     <div className="vw-100 vh-100 bg-light d-flex align-items-center justify-content-center">
       <div className="marvel position-relative">
         <img
-          src={leftImage}
+          src="https://i.imgur.com/u8zKfjp.jpg"
           alt="image missing"
           className="img-fluid"
         />
@@ -31,7 +29,7 @@ export default () => {
       </div>
       <div className="marvel position-relative">
         <img
-          src={rightImage}
+          src="https://i.imgur.com/BO5fiiu.jpg"
           alt="image missing"
           className="img-fluid"
         />
